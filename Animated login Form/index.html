@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Web design Mastery</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/" class = login_form>
+            <h1>login</h1>
+            <div class="input_row">
+                <span><i class="ri-user-3-line"></i></span>
+                <div class = "input_group">
+                    <input type="text" placeholder = " ">
+                    <label for="text">Name</label>
+                </div>
+            </div>    
+            <div class="input_row">
+                <span><i class="ri-lock-2-line"></i></span>
+                <div class="input_group">
+                    <input type="password"  id = "password" placeholder = " ">
+                    <label for="text">Password</label>
+                </div>
+                <span id = "password-eye"><i class = "ri-eye-off-line"></i></span>
+            </div>
+            <div class="action_btns">
+                <div class="remember_me">
+                    <input type="checkbox" id="check" />
+                    <label for="check">Remember me</label>
+                </div>
+                <a href="#" class = "forgot_password">Forgot Password?</a>
+            </div>
+            <button class="login_btn">Login</button>
+            <div class="register">
+                Don't have an account? <a href="#">Register</a>
+            </div>
+        </form>
+    </div>
+
+    <script src = "main.js"></script>
+</body>
+</html>
